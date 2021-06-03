@@ -13,8 +13,7 @@ public class App
     public static void main( String[] args ) throws IOException, InterruptedException, ExecutionException
     {
         Client client = new Client();
-        client.sendMessage("hello its me");
+        String oop = client.sendMessage("hello its me");
        RequestGenerator generator = new RequestGenerator();
-       System.out.println(" hello") ;
     }
 }
