@@ -68,7 +68,7 @@ public class Client {
 //        Future future = client.write(integer);
 //        System.out.println(future);
 //    }
-//    byte[] byteMsg = new String("fuck you").getBytes();
+//    byte[] byteMsg = new String("log message").getBytes();
 //    ByteBuffer buffer = ByteBuffer.wrap(byteMsg);
 //    Charset charset = StandardCharsets.UTF_8;
 //    Future<Integer> writeResult = client.write(charset.encode(CharBuffer.wrap("GET"+"5555"+" HTTP/1.0\r\n\r\n")));
